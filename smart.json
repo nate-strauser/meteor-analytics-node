@@ -3,7 +3,7 @@
     "description": "analytics-node npm packaged for meteor 0.6.0+",
     "homepage": "https://github.com/nate-strauser/meteor-analytics-node",
     "author": "Nate Strauser",
-    "version": "0.1.0",
+    "version": "0.5.0",
     "git": "https://github.com/nate-strauser/meteor-analytics-node.git",
     "packages": {
     }

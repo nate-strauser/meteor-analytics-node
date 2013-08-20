@@ -8,6 +8,8 @@ Package.on_use(function (api) {
         'lib/analytics-node.js'
     ], 'server'
     );
-
+    if (typeof api.export !== 'undefined') {
+		api.export("ANALYTICS_NODE", "server");
+	}
 });
-Npm.depends({'analytics-node':"0.4.0"});
+Npm.depends({'analytics-node':"0.5.0"});
